@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+<meta charset="UTF-8">
+<title>Bolet Lakay — OBS Overlay</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="stage">
+
+  <div id="header">
+    <div class="brand">
+      <div class="live-badge" id="liveBadge">
+        <div class="dot"></div>
+        <span>LIVE</span>
+      </div>
+      <div class="brand-title">Rezilta Lottery</div>
+    </div>
+
+    <div class="date-pill" id="datePill">Samedi 05 Septembre 2026</div>
+
+    <div class="clock-badge" id="clockBadge">
+      <div class="time" id="clockTime">--:--</div>
+      <div class="sub">REZILTA NAN</div>
+    </div>
+
+    <div class="awel-logo">
+      <img id="awelImg" style="display:none" alt="AWEL">
+      <div class="awel-fallback" id="awelFallback">AWEL</div>
+      <div class="awel-text">
+        <div class="t1">AWEL</div>
+        <div class="t2">BOUL CHO • LOTTO • REZILTA</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="side-col" id="col-left"></div>
+  <div class="side-col" id="col-right"></div>
+
+  <div id="spotlight">
+    <div class="title" id="drawTitle">REZILTA TIRAJ FLORIDA</div>
+    <div class="subtitle" id="drawSubtitle">Maten • Samedi 05 Septembre 2026</div>
+    <div class="picks">
+      <div class="pick-block">
+        <div class="pick-label">PICK 3</div>
+        <div class="digits" id="pick3"></div>
+      </div>
+      <div class="pick-block">
+        <div class="pick-label">PICK 4</div>
+        <div class="digits" id="pick4"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <span class="yt">▶</span>
+    <span>BOLET LAKAY</span>
+    <span class="sep">|</span>
+    <span>Abòne • Like • Pataje</span>
+    <span class="msg">Pou plis rezilta, abòne ak chènèl la!</span>
+  </div>
+
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="js/data.js"></script>
+<script src="js/overlay.js"></script>
+</body>
+</html>
