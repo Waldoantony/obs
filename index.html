@@ -1,0 +1,81 @@
+<!-- BOLET_LAKAY_VERSION: 2026-09-06-drag -->
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+<meta charset="UTF-8">
+<title>Bolet Lakay — OBS Overlay</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="overlay">
+
+  <img id="customLogo" class="custom-logo" style="display:none" alt="Logo">
+
+  <!-- ===================== HEADER ===================== -->
+  <div class="header">
+    <div class="live" id="liveBadge">
+      <div class="live-dot"></div>
+      LIVE
+    </div>
+
+    <div class="main-title">REZILTA <span>LOTTERY</span></div>
+
+    <div class="date-box">📅&nbsp; <span id="datePill">Dimanch 6 Septanm 2026</span></div>
+
+    <div class="countdown" id="clockBadge">
+      <div class="countdown-number" id="clockTime">--:--</div>
+      <div class="countdown-label" id="clockLabel">LÈ AKTYÈL</div>
+    </div>
+  </div>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <div class="content">
+
+    <div class="states" id="col-left"></div>
+
+    <div class="center" id="centerPanel">
+      <div class="center-title">REZILTA TIRAJ</div>
+      <div class="florida" id="drawStateName">FLORIDA</div>
+      <div class="florida-line"></div>
+      <div class="draw-subtitle" id="drawSubtitle"></div>
+
+      <div class="draw-title pick3-title">PICK 3</div>
+      <div class="number-row" id="pick3"></div>
+
+      <div class="draw-title pick4-title">PICK 4</div>
+      <div class="number-row pick4" id="pick4"></div>
+
+      <div class="good-luck">★ &nbsp; BONNE CHANCE!</div>
+    </div>
+
+    <div class="col-right-wrap">
+      <div class="states" id="col-right"></div>
+
+      <div class="social-cta">
+        <div class="social-cta-ribbon">🔔 ABÒNE AK CHANÈL LA</div>
+        <div class="social-cta-buttons">
+          <div class="social-btn social-btn-sub">▶ SUBSCRIBE</div>
+          <div class="social-btn social-btn-like">👍 LIKE</div>
+          <div class="social-btn social-btn-share">↗ SHARE</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ===================== FOOTER ===================== -->
+  <div class="footer">
+    <div class="footer-tagline">⚡ Jou Pou Jou, Dat Pou Dat</div>
+    <div class="footer-tagline">⚡ Rete konekte ak nou!</div>
+    <div class="footer-tagline">⚡ Pou plis rezilta chak jou!</div>
+  </div>
+
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="js/data.js"></script>
+<script src="js/overlay.js"></script>
+</body>
+</html>
