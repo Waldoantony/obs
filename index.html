@@ -1,0 +1,91 @@
+<!-- BOLET_LAKAY_VERSION: 2026-09-06-drag -->
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+<meta charset="UTF-8">
+<title>Bolet Lakay — OBS Overlay</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="overlay">
+
+  <img id="customLogo" class="custom-logo" style="display:none" alt="Logo">
+
+  <!-- ===================== HEADER ===================== -->
+  <div class="header">
+    <div class="live" id="liveBadge">
+      <div class="live-dot"></div>
+      LIVE
+    </div>
+
+    <div class="main-title">REZILTA <span>LOTTERY</span></div>
+
+    <div class="date-box">📅&nbsp; <span id="datePill">Dimanch 6 Septanm 2026</span></div>
+
+    <div class="countdown" id="clockBadge">
+      <div class="countdown-number" id="clockTime">--:--</div>
+      <div class="countdown-label" id="clockLabel">LÈ AKTYÈL</div>
+    </div>
+  </div>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <div class="content">
+
+    <div class="states" id="col-left"></div>
+
+    <div class="center">
+      <div class="center-title">REZILTA TIRAJ</div>
+      <div class="florida" id="drawStateName">FLORIDA</div>
+      <div class="florida-line"></div>
+      <div class="draw-subtitle" id="drawSubtitle"></div>
+
+      <div class="draw-title">PICK 3</div>
+      <div class="number-row" id="pick3"></div>
+
+      <div class="draw-title">PICK 4</div>
+      <div class="number-row pick4" id="pick4"></div>
+
+      <div class="good-luck">★ &nbsp; BONNE CHANCE!</div>
+
+      <div class="subscribe-cta">📢 Abone avek Chanèl la pouw kapab toujou jwenn rezilta yo</div>
+    </div>
+
+    <div class="states" id="col-right"></div>
+
+  </div>
+
+  <!-- ===================== FOOTER ===================== -->
+  <div class="footer">
+    <div class="footer-section">
+      <div>
+        <div class="footer-title">🏆 BOUL CHO</div>
+        <div class="footer-small">LOTTO • REZILTA • EMISYON</div>
+      </div>
+    </div>
+    <div class="footer-section">
+      <div class="socials">
+        <div class="social">f</div>
+        <div class="social">▶</div>
+        <div class="social">♪</div>
+      </div>
+    </div>
+    <div class="footer-section">
+      <div>
+        <div class="subscribe">↗ &nbsp; ABÒNE • LIKE • PATAJE</div>
+        <div class="footer-small">POU PLIS REZILTA CHAK JOU!</div>
+      </div>
+    </div>
+    <div class="footer-section">
+      <div class="powered">⚡ AWEL TEAM</div>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="js/data.js"></script>
+<script src="js/overlay.js"></script>
+</body>
+</html>
